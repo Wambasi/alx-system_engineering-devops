@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-# Script that uses ssh to connect to your server
+SERVER_ADDRESS="34.234.193.255"
 ssh -i ~/.ssh/school ubuntu@34.234.193.255
