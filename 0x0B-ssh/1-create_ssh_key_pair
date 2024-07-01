@@ -1,6 +1,3 @@
 #!/usr/bin/env bash
-# a script that creates an RSA key pair
-# -b for bytes, -t for type of key = rsa, -N to specify passphrase
-# -p to remove or changing passphrase, -f is for file path
-
-ssh-keygen -t rsa -b 4096 -N betty -f school
+# Bash script that creates an RSA key pair
+ssh-keygen -b 4096 -f school -N betty
