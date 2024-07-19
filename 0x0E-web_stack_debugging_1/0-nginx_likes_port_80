@@ -1,4 +1,4 @@
-#!/usr/bin/enc bash
+#!/usr/bin/env bash
 # configures a server to listening to port 80 of all active servers IPv4 IPs
 
 sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
