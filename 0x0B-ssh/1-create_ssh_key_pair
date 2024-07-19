@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# generating a private ssh keypair
+
+ssh-keygen -f rsa -b 4096 -p betty -f school
