@@ -1,0 +1,4 @@
+#usr/bin/env bash
+#runs whoami command passed as an arguement
+# sudo to switch the user, u- to indicate the user
+sudo -u "$1" whoami
